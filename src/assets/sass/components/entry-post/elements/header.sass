@@ -1,0 +1,48 @@
+//--- Entry-Post > Header ---//
+.entry-post
+  >.header
+    .title
+      +font-settings($font-title, $font-size-medium)
+      font-weight: 700
+      color: $color-title
+      margin-top: 10px
+      margin-bottom: 10px
+
+    .info
+      +font-settings($font-author, $font-size-small)
+      color: $color-author
+      font-style: italic
+      display: flex
+      align-items: center
+
+      .author
+        flex-shrink: 0
+        margin-right: 10px
+
+      .image
+        width: 32px
+        border-radius: 50%
+
+      .name
+        flex-grow: 1
+
+  &.-first
+    .title
+      font-size: $font-size-bigger
+    @media (max-width: $screen-xs-max)
+      .title
+        font-size: $font-size-medium
+
+    .info
+      .image
+        width: 45px
+    @media (max-width: $screen-xs-max)
+      .info
+        .image
+          width: 32px
+
+.secondary
+  .entry-post
+    >.header
+      .title
+        margin-bottom: 20px

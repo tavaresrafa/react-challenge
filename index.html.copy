@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./src/assets/sass/settings/bootstrap/css/bootstrap.min.css">
+  <title>USA News</title>
+</head>
+
+<body>
+  <!-- MENU -->
+  <header class="menu">
+    <div class="container-fluid">
+      <a class="menu-toggle">
+        <span>
+          <picture>
+            <source srcset="./src/assets/img/menu.png 1x, ./src/assets/img/menu@2x.png 2x">
+            <img src="./src/assets/img/menu.png" alt="USA News Logo">
+          </picture>
+        </span>
+      </a>
+
+      <div class="header-logo">
+        <a href="#" title="Home USA News">
+          <picture>
+            <source srcset="./src/assets/img/logo.png 1x, ./src/assets/img/logo@2x.png 2x">
+            <img src="./src/assets/img/logo.png" alt="USA News Logo">
+          </picture>
+        </a>
+      </div>
+
+      <nav class="nav-menu not-active">
+        <ul>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Tech</a></li>
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Sports</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- / MENU -->
+
+  <!-- CONTENT -->
+  <div class="main-content container-fluid">
+    <section class="row">
+      <div class="col-lg-6">
+        <article class="entry-post -first">
+          <ul class="category">
+            <li class="politics">Politics</li>
+          </ul>
+          <picture class="thumbnail -first">
+            <source srcset="./src/assets/img/image1.jpg 1x, ./src/assets/img/image1@2x.jpg 2x">
+            <img class="image" src="./src/assets/img/image1.jpg" alt="Obama Offers Hopeful Vision While Noting Nation's Fears">
+            <a href="#" class="more">Read More</a>
+          </picture>
+          <header class="header -first">
+            <h2 class="title">
+              Obama Offers Hopeful Vision While Noting Nation's Fears
+            </h2>
+            <div class="info">
+              <picture class="author">
+                <source srcset="./src/assets/img/author.jpg 1x, ./src/assets/img/author@2x.jpg 2x">
+                <img class="image" src="./src/assets/img/author.jpg" alt="Author's picture">
+              </picture>
+              <div class="name">by Graham Spencer</div>
+            </div>
+          </header>
+          <div class="content -first">
+            <p class="text">
+              In his last State of the Union address, President Obama sought to
+              paint a hopeful portrait. But he acknowledged that many Americans felt
+              shut out of a political and economic system they view as rigged.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <article class="entry-post">
+          <ul class="category">
+            <li class="tech">Tech</li>
+          </ul>
+          <picture class="thumbnail">
+            <source srcset="./src/assets/img/image2.jpg 1x, ./src/assets/img/image2@2x.jpg 2x">
+            <img class="image" src="./src/assets/img/image2.jpg" alt="Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third Party&nbsp;Apps">
+            <a href="#" class="more">Read More</a>
+          </picture>
+          <header class="header">
+            <h2 class="title">
+              Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third Party&nbsp;Apps
+            </h2>
+            <div class="info">
+              <picture class="author">
+                <source srcset="./src/assets/img/author.jpg 1x, ./src/assets/img/author@2x.jpg 2x">
+                <img class="image" src="./src/assets/img/author.jpg" alt="Author's picture">
+              </picture>
+              <div class="name">by Fran Bellamy</div>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              One day after Uber updated its API to add 'content experiences' for
+              passengers, the U.S. company’s biggest rival — Didi Kuaidi in China —
+              has opened its own platform up by releasing an SDK for developers and
+              third-parties.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <article class="entry-post">
+          <ul class="category">
+            <li class="science">Science</li>
+          </ul>
+          <picture class="thumbnail">
+            <source srcset="./src/assets/img/image3.jpg 1x, ./src/assets/img/image3@2x.jpg 2x">
+            <img class="image" src="./src/assets/img/image3.jpg" alt="NASA Formalizes Efforts To Protect Earth From Asteroids">
+            <a href="#" class="more">Read More</a>
+          </picture>
+          <header class="header">
+            <h2 class="title">
+              NASA Formalizes Efforts To Protect Earth From Asteroids
+            </h2>
+            <div class="info">
+              <picture class="author">
+                <source srcset="./src/assets/img/author.jpg 1x, ./src/assets/img/author@2x.jpg 2x">
+                <img class="image" src="./src/assets/img/author.jpg" alt="Author's picture">
+              </picture>
+              <div class="name">by Alexandre Henrique Shailesh Zeta-Jones</div>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              Last week, NASA announced a new program called the Planetary Defense
+              Coordination Office (PDCO) which will coordinate NASA’s efforts for
+              detecting and tracking near-Earth objects (NEOs). If a large object
+              comes hurtling toward our planet…
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="hr">
+
+    <section class="row">
+      <div class="col-lg-4 col-sm-6">
+        <article class="entry-post">
+          <ul class="category _unmargin-bottom">
+            <li class="sports">Sports</li>
+          </ul>
+          <header class="header">
+            <h2 class="title">
+              For Some Atlanta Hawks, a Revved-Up Game of Uno Is Diversion No. 1
+            </h2>
+            <div class="info">
+              <picture class="author">
+                <source srcset="./src/assets/img/author.jpg 1x, ./src/assets/img/author@2x.jpg 2x">
+                <img class="image" src="./src/assets/img/author.jpg" alt="Author's picture">
+              </picture>
+              <div class="name">by Dusan Belic</div>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              The favored in-flight pastime of a group of players including Al
+              Horford, Kent Bazemore and Dennis Schroder is a schoolchildren’s card
+              game with some added twists.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <article class="entry-post">
+          <ul class="category _unmargin-bottom">
+            <li class="tech">Tech</li>
+          </ul>
+          <header class="header">
+            <h2 class="title">
+              Picking a Windows 10 Security Package
+            </h2>
+            <div class="info">
+              <picture class="author">
+                <source srcset="./src/assets/img/author.jpg 1x, ./src/assets/img/author@2x.jpg 2x">
+                <img class="image" src="./src/assets/img/author.jpg" alt="Author's picture">
+              </picture>
+              <div class="name">by Harmeet Shah Singh</div>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              Oscar the Grouch has a recycling bin and Big Bird has moved to a
+              tree as the children’s classic debuts on HBO, aiming at a generation
+              that doesn’t distinguish between TV and mobile screens.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <article class="entry-post">
+          <ul class="category _unmargin-bottom">
+            <li class="science">Science</li>
+          </ul>
+          <header class="header">
+            <h2 class="title">
+              As U.S. Modernizes Nuclear Weapons, 'Smaller' Leaves Some Uneasy
+            </h2>
+            <div class="info">
+              <picture class="author">
+                <source srcset="./src/assets/img/author.jpg 1x, ./src/assets/img/author@2x.jpg 2x">
+                <img class="image" src="./src/assets/img/author.jpg" alt="Author's picture">
+              </picture>
+              <div class="name">by Rene Ritchie</div>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              The Energy Department and the Pentagon have been readying a weapon
+              with a build-it-smaller approach, setting off a philosophical clash in
+              the world of nuclear arms.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+  <!-- / CONTENT -->
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<div data-js="app"></div>
+	<script src="/static/bundle.js"></script>
+
+</body>
+</html>

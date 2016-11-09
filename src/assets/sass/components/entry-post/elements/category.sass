@@ -1,0 +1,34 @@
+//--- Entry-Post > Category ---//
+.entry-post
+  >.category
+    +font-settings($font-category, $font-size-smaller)
+    text-transform: uppercase
+    line-height: 1.1
+    list-style: none
+    padding: 0
+    margin-top: 0
+    margin-bottom: 10px
+
+    li
+      display: inline-block
+      margin-right: 5px
+
+    .politics
+      color: $color-politics
+
+    .tech
+      color: $color-tech
+
+    .science
+      color: $color-science
+
+    .sports
+      color: $color-sports
+
+  &.-bottom
+    margin-bottom: 0
+
+.secondary
+  .entry-post
+    >.category
+      margin-bottom: 0px

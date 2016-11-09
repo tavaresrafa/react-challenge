@@ -1,6 +1,7 @@
 'use strict'
 import React from 'react'
 import Author from './Author'
+import Media from './Media'
 import cx from 'classnames'
 
 class Post extends React.Component {

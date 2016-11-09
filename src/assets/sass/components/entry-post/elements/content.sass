@@ -1,0 +1,14 @@
+//--- Entry-Post > Content ---//
+.entry-post
+  >.content
+    .text
+      +font-settings($font-text, $font-size-medium-small)
+      color: $color-text
+      margin-top: 20px
+
+  &.-first
+    .text
+      display: none
+    @media (max-width: $screen-xs-max)
+      .text
+        display: block

@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "title": "Obama Offers Hopeful Vision While Noting Nation's Fears",
+      "website": "MacStories",
+      "authors": "by Creed Bratton",
+      "date": "05/26/2014",
+      "content": "In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.",
+      "tags": [{
+        "id": 1,
+        "label": "Politics"
+      }],
+        "image": "image1"
+    },
+    {
+      "title": "Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third Party Apps",
+      "website": "Masslive",
+      "authors": "by Creed Bratton",
+      "date": "05/27/2014",
+      "content": "One day after Uber updated its API to add 'content experiences' for passengers, the U.S. company’s biggest rival — Didi Kuaidi in China — has opened its own platform up by releasing an SDK for developers and third-parties.",
+      "tags": [{
+        "id": 2,
+        "label": "Tech"
+        }],
+        "image": "image2"
+    },
+    {
+      "title": "NASA Formalizes Efforts To Protect Earth From Asteroids",
+      "website": "International Business Times - Australia",
+      "authors": "by Alexandre Henrique Shailesh Zeta-Jones",
+      "date": "05/28/2014",
+      "content": "Last week, NASA announced a new program called the Planetary Defense Coordination Office (PDCO) which will coordinate NASA’s efforts for detecting and tracking near-Earth objects (NEOs). If a large object comes hurtling toward our planet… ",
+      "tags": [{
+        "id": 3,
+        "label": "Science"
+        }],
+        "image": "image3"
+    },
+    {
+      "title": "For Some Atlanta Hawks, a Revved-Up Game of Uno Is Diversion No. 1",
+      "website": "Into Mobile",
+      "authors": "by Creed Bratton",
+      "date": "05/26/2014",
+      "content": "The favored in-flight pastime of a group of players including Al Horford, Kent Bazemore and Dennis Schroder is a schoolchildren’s card game with some added twists.",
+      "tags": [{
+        "id": 4,
+        "label": "Sports"
+        }],
+        "image": null
+    },
+    {
+      "title": "Picking a Windows 10 Security Package",
+      "website": "CNN",
+      "authors": "by Creed Bratton",
+      "date": "04/02/2014",
+      "content": "Oscar the Grouch has a recycling bin and Big Bird has moved to a tree as the children’s classic debuts on HBO, aiming at a generation that doesn’t distinguish between TV and mobile screens.",
+      "tags": [{
+        "id": 2,
+        "label": "Tech"
+        }],
+        "image": null
+    },
+    {
+      "title": "As U.S. Modernizes Nuclear Weapons, 'Smaller' Leaves Some Uneasy",
+      "website": "iMore",
+      "authors": "by Creed Bratton",
+      "date": "05/26/2014",
+      "content": "The Energy Department and the Pentagon have been readying a weapon with a build-it-smaller approach, setting off a philosophical clash in the world of nuclear arms.",
+      "tags": [{
+        "id": 3,
+        "label": "Science"
+        }],
+        "image": null
+    }
+  ]
+}

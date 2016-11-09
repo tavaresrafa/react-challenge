@@ -1,0 +1,97 @@
+.menu
+  height: 56px
+  background-color: $color-white
+  border-bottom: 1px solid $color-gray-light
+
+  .container-fluid
+    display: flex
+    align-items: center
+    height: 100%
+    background-color: $color-white
+
+  .menu-toggle
+    width: 60px
+    height: 52px
+    position: absolute
+    top: 2px
+    cursor: pointer
+
+    span
+      display: block
+      width: 24px
+      height: 19px
+      margin: 16px 17.5px
+
+  .nav-menu
+    background-color: $color-white
+    margin-left: auto
+
+    ul
+      padding-left: 0
+      margin: 0 -15px
+
+      li
+        padding: 0 16px
+        display: inline-block
+
+    a
+      +font-settings($font-menu, $font-size-medium-small)
+      text-transform: uppercase
+      color: $color-gray-strong !important
+      transition: ease .1s
+
+      &:hover
+        text-decoration: underline
+        color: $color-black !important
+
+//--- MEDIA QUERIES ---//
+//--- 1200px ---//
+@media (min-width: $screen-lg)
+  .menu
+    .container-fluid
+      max-width: $container-lg !important
+
+    .menu-toggle
+      display: none !important
+
+    .header-logo
+      float: left
+
+//--- 1199px ---//
+@media (max-width: $screen-md-max)
+  .menu
+    position: relative
+    z-index: 2
+
+    .header-logo
+      margin: 0 auto
+
+      img
+        margin: 5px 0
+
+    .nav-menu
+      transition-property: transform
+      transition-duration: 400ms
+      transition-timing-function: ease
+      position: absolute
+      top: 56px
+      left: 0
+      transform: translateY(-101%)
+      width: 100%
+      margin: 0 auto
+      z-index: -1
+
+      &.active
+        transform: translateY(0)
+
+      ul
+        padding-left: 30px
+        margin: 0 auto
+        background-color: #fff
+
+        li
+          display: block
+
+          a
+            display: block
+            padding: 15px 0

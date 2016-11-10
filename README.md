@@ -1,5 +1,20 @@
 # React Challenge
 
+### Technologies
+List of languages and libraries used in this project:
+- HTML 5
+- SASS
+- Bootstrap Grid
+- ReactJS
+- Webpack
+- Babel
+- Lint: StandardJS
+- Axios
+
+### Architecture/Metodology
+- RSCSS
+- ITCSS
+
 ## How to run
 ```
 npm install

@@ -11,7 +11,7 @@ List of languages and libraries used in this project:
 - Lint: StandardJS
 - Axios
 
-### Architecture/Metodology
+### Architecture/Methodology
 - RSCSS
 - ITCSS
 

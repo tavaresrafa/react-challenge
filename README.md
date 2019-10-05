@@ -1,5 +1,3 @@
-Link: ckl-react-challenge.surge.sh/
-
 `Deploy link:` [react-challenge](http://ckl-react-challenge.surge.sh/)
 
 # React Challenge
